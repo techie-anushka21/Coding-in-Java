@@ -9,10 +9,10 @@ class Values
     public void input(Scanner scn)    //function to input the nos.
     {
         System.out.print("Enter the 1st no.: ");
-        a = scn.nextInt();
+        a = scn.nextInt();    //1st no.
 
         System.out.print("Enter the 2nd no.: ");
-        b = scn.nextInt();
+        b = scn.nextInt();    //2nd no.
     }
     public void checks()    //function to check the Equality of both the nos.
     {
