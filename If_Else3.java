@@ -33,7 +33,7 @@ class Values
         }
     }
 }
-public class If_Else3    //staging all the things
+public class If_Else3    //staging all the things together
 {
     public static void main(String args[])
     {
