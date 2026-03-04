@@ -1,39 +1,39 @@
-import java.util.Scanner;
+import java.util.Scanner;    //accessing the Scanner class
 class Week
 {
     int i;
 
-    public void input(Scanner scn)
+    public void input(Scanner scn)    //function to input the no. from user
     {
         System.out.print("Enter a no.: ");
-        i = scn.nextInt();
+        i = scn.nextInt();    //scanning the input
     }
-    public void show()
+    public void show()    //function for implementing the switch case
     {
-        switch(i){
+        switch(i){        //switch(operand)
             case 1:
-                System.out.println("Monday");
+                System.out.println("Monday");    //1 for Monday
                 break;
             case 2:
-                System.out.println("Tuesday");
+                System.out.println("Tuesday");   //2 for Tuesday
                 break;
             case 3:
-                System.out.println("Wednesday");
+                System.out.println("Wednesday"); //3 for Wednesday
                 break;
             case 4:
-                System.out.println("Thursday");
+                System.out.println("Thursday");  //4 for Thursday
                 break;
             case 5:
-                System.out.println("Friday");
+                System.out.println("Friday");    //5 for Friday
                 break;
             case 6:
-                System.out.println("Saturday");
+                System.out.println("Saturday");  //6 for Saturday
                 break;
             case 7:
-                System.out.println("Sunday");
+                System.out.println("Sunday");    //7 for Sunday
                 break;
             default:
-                System.out.println("Invalid");
+                System.out.println("Invalid");    //default message
         }
     }
 }
@@ -41,9 +41,9 @@ public class Weekdays {
     public static void main(String args[])
     {
         Scanner scn = new Scanner(System.in);
-        Week obj = new Week();
-        obj.input(scn);
-        obj.show();
+        Week obj = new Week();    //object creation for "Week" class
+        obj.input(scn);    //accessing the input function
+        obj.show();        //accessing the show function
         scn.close();
     }
 }
