@@ -1,4 +1,4 @@
-/*printing a Right-angled Triangle in Java using for loop*/
+/*printing a Right-angled Triangle in Java using the for loop*/
 public class ForStars
 {
     public static void main(String args[])
