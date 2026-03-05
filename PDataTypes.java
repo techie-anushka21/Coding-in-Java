@@ -8,7 +8,7 @@ class Integers{
     int c = 10010;
     long d = 10L;
 
-    public void out1()    //function to print the different types of Integers
+    public void out1()    //method to print the different types of Integers
     {
         System.out.println(a);
         System.out.println(b);
@@ -21,7 +21,7 @@ class Floating{
     float e = 8.9F;
     double f = 9.9998;
 
-    public void out2()    //function to print the different types of Floating Point Nos.
+    public void out2()    //method to print the different types of Floating Point Nos.
     {
         System.out.println(e);
         System.out.println(f);
@@ -32,13 +32,13 @@ class Others{
     char g = 'a';
     boolean h = true;
 
-    public void out3()    //function to print char and boolean
+    public void out3()    //method to print char and boolean
     {
         System.out.println(g);
         System.out.println(h);
     }
 } 
-public class PDataTypes{        //accessing all the functions here
+public class PDataTypes{        //accessing all the methods here
     public static void main(String args[])
     {
         Integers obj1 = new Integers();    //object creation
