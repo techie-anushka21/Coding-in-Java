@@ -7,7 +7,7 @@ class Greet
 {
     int num;
 
-    public void input(Scanner scn)    //function to input the no.
+    public void input(Scanner scn)    //method to input the no.
     {
         System.out.print("Enter a no.: ");
         num = scn.nextInt();
@@ -40,8 +40,8 @@ public class Elseif
     {
         Scanner scn = new Scanner(System.in);
         Greet obj = new Greet();    //object creation for "Greet" class
-        obj.input(scn);    //accessing the input function
-        obj.check();       //accessing the check function
+        obj.input(scn);    //accessing the input method
+        obj.check();       //accessing the check method
 
         scn.close();
     }
