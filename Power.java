@@ -1,4 +1,4 @@
-/*Calculating x^n (base^exponent) where x and n both are input by the users */
+/*Calculating x^n (base^exponent) where x and n both are input by the users*/
 import java.util.Scanner;    //accessing the Scanner class
 
 class I 
