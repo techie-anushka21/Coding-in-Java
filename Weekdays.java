@@ -3,12 +3,12 @@ class Week
 {
     int i;
 
-    public void input(Scanner scn)    //function to input the no. from user
+    public void input(Scanner scn)    //method to input the no. from user
     {
         System.out.print("Enter a no.: ");
         i = scn.nextInt();    //scanning the input
     }
-    public void show()    //function for implementing the switch case
+    public void show()    //method for implementing the switch case
     {
         switch(i){        //switch(operand)
             case 1:
@@ -42,8 +42,8 @@ public class Weekdays {
     {
         Scanner scn = new Scanner(System.in);
         Week obj = new Week();    //object creation for "Week" class
-        obj.input(scn);    //accessing the input function
-        obj.show();        //accessing the show function
+        obj.input(scn);    //accessing the input method
+        obj.show();        //accessing the show method
         scn.close();
     }
 }
