@@ -1,3 +1,4 @@
+/*Greeting as per the no. given by the user using Switch Statement */
 import java.util.Scanner;    //accessing the Scanner class
 class Week
 {
