@@ -1,4 +1,4 @@
-/*Greeting as per the no. given by the user using Switch Statement */
+/*Weekday representation using Switch Statements */
 import java.util.Scanner;    //accessing the Scanner class
 class Week
 {
