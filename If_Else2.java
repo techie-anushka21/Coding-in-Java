@@ -7,7 +7,7 @@ class Numbers
 {
     double num1, num2, res;
 
-    public void input(Scanner scn)    //function to input the nos. for Division
+    public void input(Scanner scn)    //method to input the nos. for Division
     {
         System.out.print("Enter the 1st no.: ");
         num1 = scn.nextDouble();
@@ -16,7 +16,7 @@ class Numbers
 
         res = num1/num2;    //Formula of Division
     }
-    public void check()     //Function to check whether the output is Even or Odd
+    public void check()     //method to check whether the output is Even or Odd
     {
         if(res%2==0)    //condition
         {
@@ -34,8 +34,8 @@ public class If_Else2
     {
         Scanner scn = new Scanner(System.in);
         Numbers obj = new Numbers();    //Object creation for "Numbers" class 
-        obj.input(scn);    //accessing the input function 
-        obj.check();       //accessing the output function
+        obj.input(scn);    //accessing the input method 
+        obj.check();       //accessing the output method
 
         scn.close();
     }
