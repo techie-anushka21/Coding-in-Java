@@ -6,7 +6,7 @@ class Values
 {
     int a, b;
 
-    public void input(Scanner scn)    //function to input the nos.
+    public void input(Scanner scn)    //method to input the nos.
     {
         System.out.print("Enter the 1st no.: ");
         a = scn.nextInt();    //1st no.
@@ -14,7 +14,7 @@ class Values
         System.out.print("Enter the 2nd no.: ");
         b = scn.nextInt();    //2nd no.
     }
-    public void checks()    //function to check the Equality of both the nos.
+    public void checks()    //method to check the Equality of both the nos.
     {
         if(a==b)    //condition
         {
@@ -39,8 +39,8 @@ public class If_Else3    //staging all the things together
     {
         Scanner scn = new Scanner(System.in);
         Values obj = new Values();    //object creation for "Values" class
-        obj.input(scn);    //accessing the input function
-        obj.checks();      //accessing the output function
+        obj.input(scn);    //accessing the input method
+        obj.checks();      //accessing the output method
 
         scn.close();
     }
