@@ -3,7 +3,7 @@ class Integers
 {
     int num1, num2, sum;    //variable declaration
 
-    public void input(Scanner scn)    //function to input the numbers
+    public void input(Scanner scn)    //method to input the numbers
     {
         System.out.println("Addition of 2 Integers:-");
 
@@ -15,7 +15,7 @@ class Integers
 
         sum = num1 + num2;    //formula for addition
     }
-    public void output()    //function to show the output (sum)
+    public void output()    //method to show the output (sum)
     {
         System.out.println("1st no.: "+num1);
         System.out.println("2nd no.: "+num2);
@@ -29,8 +29,8 @@ public class Inputs
         Scanner scn = new Scanner(System.in);    //Creating the Scanner class's object
         Integers obj = new Integers();           //object for "Integers" class
 
-        obj.input(scn);    //accessing the input function
-        obj.output();      //accessing the output function
+        obj.input(scn);    //accessing the input method
+        obj.output();      //accessing the output method
 
         scn.close();
     }
