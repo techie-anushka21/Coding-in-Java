@@ -6,7 +6,7 @@
 /*print "Hello World!" in Java 5 times */
 class Real
 {
-    public void loops()    //function for storing the for loop 
+    public void loops()    //method for storing the for loop 
     {
         for(int i=1; i<=5; i++)    //for loop 
         {
