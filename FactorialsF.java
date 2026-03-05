@@ -3,7 +3,7 @@ class Facts
 {
     int n=4;
 
-    public void fact()    //function for operation
+    public void fact()    //method for operation
     {
         int res=1;    //a temporary variable
         for(int i=1; i<=n; i++)
