@@ -18,13 +18,13 @@ class StrMethods
 
         System.out.println("Color Name: " + colorName);
 
-        /*Extracting a String's length:- 
+        /*1. Extracting a String's length:- 
           Syntax: stringName.length() */
 
         int stringLength = colorName.length();
         System.out.println("String length of " + colorName + " = " + stringLength);
 
-        /*Extracting a particular Character from String:-
+        /*2. Extracting a particular Character from String:-
           Syntax: stringName.charAt(index) */
         
         System.out.print("Enter the index of String you want to access: ");
@@ -39,7 +39,7 @@ class StrMethods
                 System.out.println("Invalid index entered!");
             }
 
-        /*Extracting the Index of a Character entered:-
+        /*3. Extracting the Index of a Character entered:-
           Syntax: stringName.indexOf(character) */
 
         System.out.print("Enter the Character whose index you want to access: ");
@@ -47,7 +47,7 @@ class StrMethods
 
         System.out.println(colorName.indexOf(c));
 
-        /*Extracting the Substring of a String:-
+        /*4. Extracting the Substring of a String:-
           Syntax: stringName.substring(startIndex,endIndex) */
 
         System.out.print("Enter the index range of substring: ");
